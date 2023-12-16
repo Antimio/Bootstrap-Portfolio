@@ -1,14 +1,76 @@
+/*Navigation bar*/
+
 #navigation {
     display: flex;
     margin: 0px;
-    padding: 80px 80px 40px 80px;
+    padding: 60px;
     background-color: cadetblue;
     background-size: cover;
     color: rgb(15, 14, 15);
     width: 100%;
 }
 
+#navigation h1 {
+    width: 70%;
+    padding-left: 16px;
+    font-size: 160px;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 1000px) {
+    #navigation h1 {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #navigation h1 {
+        font-size: 60px;
+    }
+}
+
+#navItems {
+    display: flex;
+    flex-direction: row;
+    display: inline;
+}
+
 #navItems a {
     font-size: xx-large;
+    color: white;
+}
+
+
+/*Jumbotron */
+
+#jumbo {
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../images/02-portfolio-3.jpg");
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1000px) {
+    #jumbo h1 {
+        padding-left: 300px;
+    }
+    #jumbo p {
+        display: block;
+        width: 75%;
+        padding-left: 300px;
+    }
+}
+
+#jumbo h1 {
+    color: mediumslateblue;
+}
+
+.lead {
+    font-weight: bolder;
     color: black;
 }
