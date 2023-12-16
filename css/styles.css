@@ -1,0 +1,14 @@
+#navigation {
+    display: flex;
+    margin: 0px;
+    padding: 80px 80px 40px 80px;
+    background-color: cadetblue;
+    background-size: cover;
+    color: rgb(15, 14, 15);
+    width: 100%;
+}
+
+#navItems a {
+    font-size: xx-large;
+    color: black;
+}
