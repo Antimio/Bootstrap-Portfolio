@@ -67,10 +67,21 @@
 }
 
 #jumbo h1 {
-    color: mediumslateblue;
+    color: black;
 }
 
 .lead {
     font-weight: bolder;
     color: black;
+}
+
+
+/*Work*/
+
+#work img {
+    height: 400px;
+}
+
+.col {
+    padding: 10px;
 }
