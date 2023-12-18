@@ -94,10 +94,25 @@
 /*Skills*/
 
 .skills {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .skills li {
     font-weight: 500;
     font-size: larger;
+}
+
+
+/*Contact Me*/
+
+.col-content {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#contact {
+    background-color: aliceblue;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
