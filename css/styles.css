@@ -1,5 +1,14 @@
 /*Navigation bar*/
 
+a:hover {
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.button:hover {
+    box-shadow: 10px 5px 5px purple;
+}
+
 #navigation {
     display: flex;
     margin: 0px;
@@ -100,6 +109,10 @@
 .skills li {
     font-weight: 500;
     font-size: larger;
+}
+
+.listItem:hover {
+    zoom: 1.2;
 }
 
 
